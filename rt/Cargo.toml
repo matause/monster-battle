@@ -1,0 +1,16 @@
+[package]
+name = "monster-battle-rt"
+version = "0.1.0"
+workspace = ".."
+
+[[bin]]
+name = "monsterbattle"
+
+[dependencies]
+dylib = "0.0.2"
+env_logger = "0.3.5"
+log = "0.3.6"
+monster-battle-core = { path = "../core" }
+
+[features]
+portable = []

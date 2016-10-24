@@ -1,0 +1,16 @@
+[package]
+name = "monster-battle-g1"
+version = "0.1.0"
+workspace = ".."
+
+[lib]
+name = "g1"
+crate-type = ["cdylib"]
+
+[dependencies]
+env_logger = "0.3.5"
+log = "0.3.6"
+monster-battle-core = { path = "../core" }
+serde = "0.8.16"
+serde_derive = "0.8.16"
+toml = { version = "0.2.1", features = ["serde"] }

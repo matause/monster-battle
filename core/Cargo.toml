@@ -1,0 +1,4 @@
+[package]
+name = "monster-battle-core"
+version = "0.1.0"
+workspace = ".."
